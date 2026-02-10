@@ -12,7 +12,7 @@ export default function Catalogo({ nombre, categoria, rating, imagen, onRent }) 
       />
       <h2 className="text-xl font-bold mt-4">{nombre}</h2>
       <p className="text-slate-400">{categoria}</p>
-      <p className="text-yellow-400">⭐ {rating}</p>
+      <p className="text-yellow-400"> {rating}</p>
       <button 
         onClick={onRent}
         className="mt-4 w-full bg-blue-600 hover:bg-blue-500 py-2 rounded-lg transition"
